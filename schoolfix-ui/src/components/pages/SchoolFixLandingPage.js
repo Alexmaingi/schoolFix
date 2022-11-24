@@ -8,7 +8,8 @@ const SchoolFixLandingPage = () => {
   return (
     <div>
        <SchoolFixNavbar 
-          buttonPresent={true}
+          buttonLogInPresent={true}
+          buttonSignUpPresent={true}
        />
         <div className="container flex items-center  w-[90%]">
             <div className='flex justify between'>

@@ -14,7 +14,7 @@ const SchoolFixCards = ({ cardStyle, buttonCardStyle, imgSrc, nameStyle, schoolT
         {schoolName}
         </div>
 
-        <div className={`ml-[450px] mt-[-24px] ${ buttonCardStyle ? buttonCardStyle : '' }`}> 
+        <div className={`ml-[450px] ${ buttonCardStyle ? buttonCardStyle : '' }`}> 
             <SchoolFixButton 
                 buttonStyle={'h-[27px] w-[75px] border-2 border-[#000000]  bg-[#ffffff]'}
                 buttonText='See More'

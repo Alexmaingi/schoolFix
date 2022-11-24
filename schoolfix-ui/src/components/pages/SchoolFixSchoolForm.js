@@ -2,11 +2,11 @@ import React from "react";
 import useForm from "../validation/useForm";
 import SchoolFixLogo from "../comon/SchoolFixLogo";
 import validate from '../validation/validateInfo'
-import SchoolFixButton from "../comon/SchoolFixButton";
-import { Link } from "react-router-dom";
+import SchoolFixButton from '../comon/SchoolFixButton'
 import { FaBackward } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-const SchoolFixSchoolForm = ({ submitForm }) => {
+const SchoolFixParentForm = ({ submitForm }) => {
   const labelStyle = 'justify-content-start block text-base text-[10px] flex justify-start px-[-10px] pb-0 font-normal text-[#000000]'
   const buttonStyle = 'text-[#000000]  bg-[#FFFFFF] border-2 ml-4 hover:text-[#ffffff] hover:bg-[#000000] w-16 h-6 border-[#000000] rounded-lg bg-transparent font-normal text-[10px] font-style: Hina Mincho'
   const inputStyle = 'bg-gray-300 text-[10px] text-[#000000] block px-[8px] ml-0 h-[20px] rounded-md w-[80%] h-[35px] bg-[#D9D9D9]  border-[#D9D9D9]  shadow-md cursor-text hover:bg-white focus:border-gray-600 focus:outline-none checkedPresent'
@@ -14,27 +14,18 @@ const SchoolFixSchoolForm = ({ submitForm }) => {
     submitForm,
     validate
   );
-
-
-
   return (
-    <form  onSubmit={handleSubmit}>
-       <div className="ml-[900px] mt-[7.8%]">
-          <SchoolFixLogo 
-            logoStyle={'h-[50px] w-[100px]'}
-          />
-       </div>
-
-    <div className=" flex justify-unevenly w-full h-[600px]">
+    <form  onSubmit={handleSubmit} >
+    <div className=" flex justify-unevenly mt-[6%] w-full h-[600px]">
       <div>
         <img
           src="/login.jpg"
           alt="SschoolFix"
-          className="w-[60%] ml-[49%] drop-shadow-2xl  rounded-l-lg h-[65%] mt-[0%]"
+          className="w-[50%] ml-[39%] drop-shadow-2xl  rounded-l-lg h-[80%] mt-[0%]"
         />
       </div>
-      <div className="w-[30%] h-[65%] ml-[4.25%] mt-[0] bg-[#989898] drop-shadow-2xl rounded-r-lg border-[#989898]" >
-        <div className="mt-[40px] ml-[60px]">
+      <div className="w-[30%] h-[80%] ml-[-8%] mt-[0] bg-[#989898] drop-shadow-2xl rounded-r-lg border-[#989898]" >
+        <div className="mt-[80px] ml-[60px]">
         <label className={labelStyle}>School Name</label>
           <input
             className={inputStyle}
@@ -86,26 +77,15 @@ const SchoolFixSchoolForm = ({ submitForm }) => {
 
         </div>
         <div className="ml-[230px] mt-[10px]">
-        <button
-        className={buttonStyle} type="submit">
+        <button className={buttonStyle} type="submit">
           Sign up
         </button>
         </div>
       </div>
     </div>
-    <div className="ml-[300px] mt-[-10%]">
-      <Link to="/backToSignUp">
-    <SchoolFixButton
-      buttonIcon={<FaBackward className='w-[40px] h-[40px]' />}
-      buttonStyle='border-0 bg-transparent'
-      buttonPresent={true}      
-    />
-    </Link>
-    </div>
-
     </form>
   );
 };
 
-export default SchoolFixSchoolForm;
+export default SchoolFixParentForm;
 

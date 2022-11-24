@@ -13,7 +13,7 @@ module.exports = {
     },
     raw_query: async (query) => {
         const result = knex.raw(query);
-        console.log("Kiundu smart => ", { result });
+        console.log("Good work => ", { result });
         return result;
     },
     search: async (tableName, whereParams, columns = '*', orderParam, orderBy) => {
@@ -23,6 +23,7 @@ module.exports = {
                 .where(whereParams);
             if (result.length === 1) result = result[0];
             return result;
+            // console.log(result)
         } else {
             let result = await knex.select(columns)
                 .from(tableName)
@@ -45,7 +46,7 @@ module.exports = {
     },
 
     create: async (tableName, data) => {
-        let result = await knex(tableName).insert(data).returning('id');
+        let result = await knex(tableName).insert(data).returning('userID');
         return result[0];
     },
 
@@ -65,12 +66,9 @@ module.exports = {
     },
     
     exec: async (procName, params = []) => {
-        // ! Prevent sql injection:
-        // Create value bindings for paramaters
 
         const valueBindings = params.map(x => '?').join();
         
-        // Execute stored procedure using raw sql query
         
         const sql = `CALL ${procName} (${valueBindings})`;
         const result = await knex.raw(sql, params);
@@ -79,13 +77,9 @@ module.exports = {
         return get(result, `rows[0].${key}`, null);
     },
     execList: async (procName, params = []) => {
-        // ! Prevent sql injection:
-        // Create value bindings for paramaters
 
         const valueBindings = params.map(x => '?').join();
-        
-        // Execute stored procedure using raw sql query
-        
+                
         const sql = `CALL ${procName} (${valueBindings})`;
         const result = await knex.raw(sql, params);
         const key = keys(result['rows'][0])[0];

@@ -31,7 +31,7 @@ const SchoolFixHome = () => {
           cardStyle={"h-[690px] w-[608px]"}
           nameStyle={"mt-[40px]"}
           buttonCardStyle={
-            "mt-[0px] ml-[490px] hover:text-[#ffffff] hover:bg-[#000000]"
+            "mt-[30px] ml-[490px] hover:text-[#ffffff] hover:bg-[#000000]"
           }
         />
       </div>
