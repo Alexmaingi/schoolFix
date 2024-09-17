@@ -12,13 +12,8 @@ const SchoolFixSignUp = ({ submitForm }) => {
   );
   return (
     <form  onSubmit={handleSubmit}>
-       <div className="ml-[900px] mt-[0px] mt-[4.8%]">
-          <SchoolFixLogo 
-            logoStyle={'h-[50px] w-[100px]'}
-          />
-       </div>
 
-    <div className=" flex justify-unevenly w-full h-[600px]">
+    <div className=" flex justify-unevenly mt-[9%] w-full h-[600px]">
       <div>
         <img
           src="/login.jpg"

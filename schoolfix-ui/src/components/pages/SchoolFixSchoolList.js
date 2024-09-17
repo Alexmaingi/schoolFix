@@ -31,7 +31,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -44,7 +44,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[20px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -57,7 +57,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -72,7 +72,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -85,7 +85,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -98,7 +98,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -113,7 +113,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -126,7 +126,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -139,7 +139,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -154,7 +154,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -167,7 +167,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>
@@ -180,7 +180,7 @@ const SchoolFixSchoolList = () => {
             cardStyle={"h-[490px] w-[350px]"}
             nameStyle={"mt-[40px]"}
             buttonCardStyle={
-              "mt-[0px] ml-[260px] hover:text-[#ffffff] hover:bg-[#000000]"
+              "mt-[-30px] ml-[260px]"
             }
           />
         </div>

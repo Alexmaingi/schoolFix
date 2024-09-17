@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios'
 
 const useForm = (callback, validate) => {
   const [values, setValues] = useState({
@@ -26,13 +25,6 @@ const useForm = (callback, validate) => {
 
     setErrors(validate(values));
     setIsSubmitting(true);
-    await axios.post('http://localhost:9005/api/v1/signup', values)
-    .then(function (response) {
-      console.log(response.data);
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
   };
 
   useEffect(
